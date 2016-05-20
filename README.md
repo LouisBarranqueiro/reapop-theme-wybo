@@ -4,7 +4,7 @@ Official theme for [Reapop](https://github.com/LouisBarranqueiro/reapop)
 
 ## Installation
 
-``` js
+```
 npm install reapop-theme-wybo --save
 ```
 
@@ -14,7 +14,7 @@ npm install reapop-theme-wybo --save
 import React, {Component} from 'react';
 import NotificationsSystem from 'reapop';
 // 1. import theme
-import theme from 'react-theme-wybo';
+import theme from 'reapop-theme-wybo';
 // 
 class ATopLevelComponent extends Component {
   render() { 
