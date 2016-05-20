@@ -11,7 +11,7 @@ var notificationsSystemClassName = css['notifications-system'];
 var notificationsContainerClassName = {
   main: css['notifications-container'],
   position: function(position) {
-    return css[`notifications-container--${position}`];
+    return css['notifications-container--' + position];
   }
 };
 
@@ -36,9 +36,9 @@ var notificationClassName = {
   meta: css['notification-meta'],
   title: css['notification-title'],
   message: css['notification-message'],
-  icon: `fa ${css['notification-icon']}`,
+  icon: 'fa ' + css['notification-icon'],
   status: (status) => {
-    return css[`notification--${status}`];
+    return css['notification--' + status];
   },
   dismissible: css['notification--dismissible'],
   // `fa` corresponds to font-awesome's class name
