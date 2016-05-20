@@ -1,0 +1,31 @@
+{
+  "name": "reapop-theme-wybo",
+  "version": "0.1.1",
+  "description": "Official theme for Reapop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisBarranqueiro/reapop-theme-wybo.git"
+  },
+  "keywords": [
+    "reapop",
+    "theme",
+    "react",
+    "redux",
+    "notifications",
+    "notification",
+    "component"
+  ],
+  "author": "Louis Barranqueiro",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LouisBarranqueiro/reapop-theme-wybo/issues"
+  },
+  "homepage": "https://github.com/LouisBarranqueiro/reapop-theme-wybo#readme",
+  "dependencies": {
+    "font-awesome": "^4.6.1"
+  }
+}
