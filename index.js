@@ -58,11 +58,6 @@ var notificationClassName = {
   buttonText: css['notification-button-text']
 };
 
-module.exports.smallScreenMin = smallScreenMin;
-module.exports.notificationsSystemClassName = notificationsSystemClassName;
-module.exports.notificationsContainerClassName = notificationsContainerClassName;
-module.exports.notificationsContainerTransition = notificationsContainerTransition;
-module.exports.notificationClassName = notificationClassName;
 module.exports = {
   smallScreenMin: smallScreenMin,
   notificationsSystem: {
