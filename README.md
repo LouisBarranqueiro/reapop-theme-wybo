@@ -1,5 +1,7 @@
 # reapop-theme-wybo
 
+[![npm version](https://img.shields.io/npm/v/reapop-theme-wybo.svg?style=flat-square)](https://www.npmjs.com/package/reapop-theme-wybo) [![npm dependencies](https://img.shields.io/david/LouisBarranqueiro/reapop-theme-wybo.svg?style=flat-square)](https://www.npmjs.com/package/reapop-theme-wybo) [![npm download/month](https://img.shields.io/npm/dm/reapop-theme-wybo.svg?style=flat-square)](https://www.npmjs.com/package/reapop-theme-wybo) [![gitter chat](https://img.shields.io/gitter/room/LouisBarranqueiro/reapop-theme-wybo.svg?style=flat-square)](https://gitter.im/LouisBarranqueiro/reapop-theme-wybo)
+
 Official theme for [Reapop](https://github.com/LouisBarranqueiro/reapop) 
 
 ## Installation
@@ -32,7 +34,7 @@ var CSSLoader = [
   'localIndentName=[name]__[local]__[hash:base64:5]'
 ].join('&');
 
-module export = {
+module.exports = {
   module: {
     loaders: [{
       test: /\.scss$/,
@@ -48,7 +50,7 @@ module export = {
 };
 ```
 
-### Set the theme props of NotificationsSystem component
+### Set the theme
 
 ``` js
 import React, {Component} from 'react';

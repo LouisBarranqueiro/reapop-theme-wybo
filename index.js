@@ -38,12 +38,12 @@ var notificationClassName = {
   meta: css['notification-meta'],
   title: css['notification-title'],
   message: css['notification-message'],
+  // `fa` corresponds to font-awesome's class name
   icon: 'fa ' + css['notification-icon'],
   status: function status(_status) {
     return css['notification--' + _status];
   },
   dismissible: css['notification--dismissible'],
-  // `fa` corresponds to font-awesome's class name
   buttons: function buttons(count) {
     if (count === 0) {
       return '';
