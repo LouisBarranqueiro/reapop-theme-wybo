@@ -1,3 +1,5 @@
+'use strict';
+
 require('!style-loader!css-loader!font-awesome/css/font-awesome.min.css');
 var css = require('./src/styles/styles.scss');
 
@@ -10,8 +12,8 @@ var notificationsSystemClassName = css['notifications-system'];
 // default className for NotificationsContainer component
 var notificationsContainerClassName = {
   main: css['notifications-container'],
-  position: function(position) {
-    return css['notifications-container--' + position];
+  position: function position(_position) {
+    return css['notifications-container--' + _position];
   }
 };
 
@@ -37,19 +39,17 @@ var notificationClassName = {
   title: css['notification-title'],
   message: css['notification-message'],
   icon: 'fa ' + css['notification-icon'],
-  status: (status) => {
-    return css['notification--' + status];
+  status: function status(_status) {
+    return css['notification--' + _status];
   },
   dismissible: css['notification--dismissible'],
   // `fa` corresponds to font-awesome's class name
-  buttons: (count) => {
+  buttons: function buttons(count) {
     if (count === 0) {
       return '';
-    }
-    else if (count === 1) {
+    } else if (count === 1) {
       return css['notification--buttons-1'];
-    }
-    else if (count === 2) {
+    } else if (count === 2) {
       return css['notification--buttons-2'];
     }
     return css['notification-buttons'];
@@ -64,7 +64,7 @@ module.exports.notificationsContainerClassName = notificationsContainerClassName
 module.exports.notificationsContainerTransition = notificationsContainerTransition;
 module.exports.notificationClassName = notificationClassName;
 module.exports = {
-  smallScreenMin,
+  smallScreenMin: smallScreenMin,
   notificationsSystem: {
     className: notificationsSystemClassName
   },
