@@ -73,11 +73,12 @@
         padding:    10px 0 10px 15px;
     }
     &-image {
-        display:        inline-block;
-        vertical-align: top;
-        border-radius:  32px;
-        width:          32px;
-        height:         32px;
+        display:         inline-block;
+        vertical-align:  top;
+        border-radius:   32px;
+        width:           32px;
+        height:          32px;
+        background-size: cover;
     }
     &-icon {
         display:     table-cell;
@@ -88,11 +89,11 @@
         font-size:   20px !important;
     }
     &-meta {
-        display:    table-cell;
+        display:        table-cell;
         vertical-align: top;
-        box-sizing: border-box;
-        width:      100%;
-        padding:    10px 20px;
+        box-sizing:     border-box;
+        width:          100%;
+        padding:        10px 20px;
     }
     // global style for buttons
     &-buttons {
