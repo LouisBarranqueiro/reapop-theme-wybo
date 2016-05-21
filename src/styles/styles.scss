@@ -69,9 +69,9 @@
 
     &-image-container {
         display:    table-cell;
+
         box-sizing: border-box;
         padding:    10px 0 10px 15px;
-
     }
     &-image {
         display:        inline-block;
@@ -89,10 +89,11 @@
         font-size:   20px !important;
     }
     &-meta {
-        display:    table-cell;
-        box-sizing: border-box;
-        width:      100%;
-        padding:    10px 20px;
+        display:        table-cell;
+        vertical-align: top;
+        box-sizing:     border-box;
+        width:          100%;
+        padding:        10px 20px;
     }
     // global style for buttons
     &-buttons {
