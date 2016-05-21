@@ -4,7 +4,7 @@
 // NotificationSystem component
 .notifications-system {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size:   14px;
     line-height: 1.428571429;
 }
 
@@ -67,11 +67,26 @@
     @include box-shadow(0 1px 3px -1px rgba(0, 0, 0, 0.3));
     z-index:    999;
 
-    // add extra padding to let space for icon
-    &:not(&--default) {
-        .notification-meta {
-            padding-left: 55px;
-        }
+    &-image-container {
+        display:    table-cell;
+        box-sizing: border-box;
+        padding:    10px 0 10px 15px;
+
+    }
+    &-image {
+        display:        inline-block;
+        vertical-align: top;
+        border-radius:  32px;
+        width:          32px;
+        height:         32px;
+    }
+    &-icon {
+        display:     table-cell;
+        box-sizing:  border-box;
+        padding:     10px 0 10px 15px;
+        font-family: 'FontAwesome';
+        // override font-size of `fa` class
+        font-size:   20px !important;
     }
     &-meta {
         display:    table-cell;
@@ -118,14 +133,6 @@
                 color: darken(#349ef3, 10%);
             }
         }
-    }
-    &-icon {
-        position:    absolute;
-        top:         10px;
-        left:        20px;
-        font-family: 'FontAwesome';
-        // override font-size of `fa` class
-        font-size:   20px !important;
     }
     &-title {
         margin:      0 0 10px;
