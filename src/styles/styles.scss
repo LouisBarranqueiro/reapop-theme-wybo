@@ -69,7 +69,6 @@
 
     &-image-container {
         display:    table-cell;
-
         box-sizing: border-box;
         padding:    10px 0 10px 15px;
     }
@@ -89,11 +88,11 @@
         font-size:   20px !important;
     }
     &-meta {
-        display:        table-cell;
+        display:    table-cell;
         vertical-align: top;
-        box-sizing:     border-box;
-        width:          100%;
-        padding:        10px 20px;
+        box-sizing: border-box;
+        width:      100%;
+        padding:    10px 20px;
     }
     // global style for buttons
     &-buttons {
