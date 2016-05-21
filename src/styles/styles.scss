@@ -57,7 +57,7 @@
 }
 
 // Notification component
-:local .notification {
+.notification {
     display:    table;
     width:      100%;
     height:     100%;
@@ -203,9 +203,9 @@
         }
         &-buttons {
             .notification-button {
-                display: inline-block;
-                width:   $notification-button-width;
-                height:  100%;
+                float:  left;
+                width:  $notification-button-width;
+                height: 100%;
             }
         }
     }
