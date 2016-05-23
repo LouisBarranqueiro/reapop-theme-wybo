@@ -8,7 +8,7 @@ Official theme for [Reapop](https://github.com/LouisBarranqueiro/reapop)
 
 Tested and works with :
 
-![Supported browsers](https://raw.githubusercontent.com/LouisBarranqueiro/reapop-theme-wybo/blob/master/supported-browsers.jpg?token=AEfNWkd_pJGzRDtmEeonMTKH2bJ6T_PCks5XTIgwwA%3D%3D)
+![Supported browsers](https://raw.githubusercontent.com/LouisBarranqueiro/reapop-theme-wybo/master/supported-browsers.jpg?token=AEfNWifONZyfDZulmuzvuLO2wkrfP6YUks5XTLztwA%3D%3D)
 
 ## Installation
 
