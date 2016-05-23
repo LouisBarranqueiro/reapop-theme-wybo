@@ -4,6 +4,12 @@
 
 Official theme for [Reapop](https://github.com/LouisBarranqueiro/reapop) 
 
+## Compatibility
+
+Tested and works with :
+
+![Supported browsers](https://github.com/LouisBarranqueiro/reapop-theme-wybo/blob/master/supported-browsers.jpg)
+
 ## Installation
 
 ```
