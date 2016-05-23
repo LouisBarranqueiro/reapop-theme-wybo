@@ -4,6 +4,12 @@
 
 Official theme for [Reapop](https://github.com/LouisBarranqueiro/reapop) 
 
+## Compatibility
+
+Tested and works with :
+
+![Supported browsers](https://raw.githubusercontent.com/LouisBarranqueiro/reapop-theme-wybo/blob/master/supported-browsers.jpg?token=AEfNWkd_pJGzRDtmEeonMTKH2bJ6T_PCks5XTIgwwA%3D%3D)
+
 ## Installation
 
 ```
@@ -22,7 +28,7 @@ You have to define some loaders to handle files of theme. If it's not already th
  - **url-loader** with `npm install url-loader --save-dev`
  - **file-loader** with `npm install file-loader --save-dev`
 
-Look at this example, you can use it in for your project. Check out configuration of [Reapop Demo](https://github.com/LouisBarranqueiro/reapop.blob/master/demo/build/webpack.config.js) to see a complete example.
+Look at this example, you can use it in for your project. Check out configuration of [Reapop Demo](https://github.com/LouisBarranqueiro/reapop) to see a complete example.
 
 ``` js
 // CSS loader with some configuration

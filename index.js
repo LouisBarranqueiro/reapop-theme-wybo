@@ -19,9 +19,9 @@ var notificationsContainerClassName = {
 
 // default transition for Notification component
 var notificationsContainerTransition = {
-  appearTimeout: 400,
-  enterTimeout: 400,
-  leaveTimeout: 400,
+  appearTimeout: 1000,
+  enterTimeout: 1000,
+  leaveTimeout: 1000,
   name: {
     appear: css['notification-appear'],
     appearActive: css['notification-appear-active'],
@@ -38,12 +38,14 @@ var notificationClassName = {
   meta: css['notification-meta'],
   title: css['notification-title'],
   message: css['notification-message'],
-  // `fa` corresponds to font-awesome's class name
   icon: 'fa ' + css['notification-icon'],
+  imageContainer: css['notification-image-container'],
+  image: css['notification-image'],
   status: function status(_status) {
     return css['notification--' + _status];
   },
   dismissible: css['notification--dismissible'],
+  // `fa` corresponds to font-awesome's class name
   buttons: function buttons(count) {
     if (count === 0) {
       return '';
