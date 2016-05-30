@@ -1,6 +1,5 @@
 'use strict';
 
-require('!style-loader!css-loader!font-awesome/css/font-awesome.min.css');
 var css = require('./src/styles/styles.scss');
 
 // media breakpoint - small screen min width
