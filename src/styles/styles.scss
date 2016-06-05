@@ -104,11 +104,11 @@
         // override font-size of `fa` class
         font-size:   14px !important;
         color:       #524c4c;
+        cursor:    pointer;
+
         &:before {
             content: $notification-close-button;
-
         }
-
         &:hover {
             color: lighten(#524c4c, 10%);
         }
