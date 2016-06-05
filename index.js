@@ -55,6 +55,8 @@ var notificationClassName = {
     }
     return css['notification-buttons'];
   },
+  closeButtonContainer: css['notification-close-button-container'],
+  closeButton: 'fa ' + css['notification-close-button'],
   button: css['notification-button'],
   buttonText: css['notification-button-text']
 };

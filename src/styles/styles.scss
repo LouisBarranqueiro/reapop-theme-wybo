@@ -84,7 +84,6 @@
         display:     table-cell;
         box-sizing:  border-box;
         padding:     10px 0 10px 15px;
-        font-family: 'FontAwesome';
         // override font-size of `fa` class
         font-size:   20px !important;
     }
@@ -94,6 +93,25 @@
         box-sizing:     border-box;
         width:          100%;
         padding:        10px 20px;
+    }
+    &-close-button-container {
+        display:    table-cell;
+        padding:    10px 15px;
+        box-sizing: border-box;
+
+    }
+    &-close-button {
+        // override font-size of `fa` class
+        font-size:   14px !important;
+        color:       #524c4c;
+        &:before {
+            content: $notification-close-button;
+
+        }
+
+        &:hover {
+            color: lighten(#524c4c, 10%);
+        }
     }
     // global style for buttons
     &-buttons {
@@ -106,7 +124,7 @@
             min-height:  40px;
             box-sizing:  border-box;
             padding:     0;
-            background: none;
+            background:  none;
             border:      none;
             border-left: 1px solid rgba(0, 0, 0, 0.09);
             outline:     none;
