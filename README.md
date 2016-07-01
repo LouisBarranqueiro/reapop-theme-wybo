@@ -100,6 +100,11 @@ class ATopLevelComponent extends Component {
 }
 ```
 
+### Customize the theme
+
+Follow this guide : [Reapop - Customize or create a theme](https://github.com/LouisBarranqueiro/reapop/blob/master/docs/api.md#customize-or-create-a-theme)
+
+
 ## License 
 
-Reapop-theme-wybo is under [GPL-3.0 License](https://github.com/LouisBarranqueiro/reapop/blob/master/LICENSE)
+Reapop-theme-wybo is under [GPL-3.0 License](https://github.com/LouisBarranqueiro/reapop-theme-wybo/blob/master/LICENSE)
