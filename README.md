@@ -74,7 +74,7 @@ import '!style-loader!css-loader!font-awesome/css/font-awesome.min.css';
 
 Add this line in `<head>` of your main `index.html` file :
 ``` html 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 ```
 
 
