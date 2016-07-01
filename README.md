@@ -8,7 +8,7 @@ Official theme for [Reapop](https://github.com/LouisBarranqueiro/reapop)
 
 Tested and works with :
 
-![Supported browsers](https://raw.githubusercontent.com/LouisBarranqueiro/reapop-theme-wybo/master/supported-browsers.jpg?token=AEfNWifONZyfDZulmuzvuLO2wkrfP6YUks5XTLztwA%3D%3D)
+![Supported browsers](https://raw.githubusercontent.com/LouisBarranqueiro/reapop-theme-wybo/master/supported-browsers.jpg)
 
 ## Installation
 
@@ -83,7 +83,7 @@ Add this line in `<head>` of your main `index.html` file :
 ``` js
 import React, {Component} from 'react';
 import NotificationsSystem from 'reapop';
-// 1. import Bootstrap
+// 1. import Font Awesome
 import '!style-loader!css-loader!font-awesome/css/font-awesome.min.css';
 // 2. import reapop theme
 import theme from 'reapop-theme-wybo';
