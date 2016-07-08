@@ -2,7 +2,7 @@
 @import 'mixins';
 
 // rotating animation for loading status
-@keyframes rotating {
+@keyframes :local(rotating) {
     from {
         transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
