@@ -1,6 +1,20 @@
 @import 'variables';
 @import 'mixins';
 
+// rotating animation for loading status
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+    }
+}
+
 // NotificationSystem component
 :local .notifications-system {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -161,9 +175,9 @@
         background-size: cover;
     }
     &-icon {
-        display:    table-cell;
+        display:    inline-block;
         box-sizing: border-box;
-        padding:    10px 0 10px 15px;
+        margin:    10px 0 10px 15px;
         // override font-size of `fa` class
         font-size:  20px !important;
     }
@@ -237,6 +251,7 @@
         margin:      0 0 10px;
         font-size:   15px;
         font-weight: 700;
+        line-height: 1.428571429;
     }
     &-message {
         margin: 0;
@@ -259,5 +274,13 @@
     }
     &--error {
         @include notification-variant($notification-error-bg, $notification-error-border, $notification-error-icon);
+    }
+    &--loading {
+        // infinite rotating animation
+        .notification-icon {
+            -webkit-animation: rotating 2s infinite linear;
+            animation:         rotating 2s infinite linear;
+        }
+        @include notification-variant($notification-loading-bg, $notification-loading-border, $notification-loading-icon);
     }
 }
