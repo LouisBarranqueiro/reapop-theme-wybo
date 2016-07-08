@@ -1,6 +1,6 @@
 {
   "name": "reapop-theme-wybo",
-  "version": "0.1.12",
+  "version": "0.2.0",
   "description": "Official theme for Reapop",
   "main": "index.js",
   "scripts": {
