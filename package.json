@@ -4,7 +4,9 @@
   "description": "Official theme for Reapop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/styles/styles.scss -o dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,8 @@
   "homepage": "https://github.com/LouisBarranqueiro/reapop-theme-wybo#readme",
   "peerDependencies": {
     "font-awesome": "^4.6.1"
+  },
+  "devDependencies": {
+    "node-sass": "^3.10.0"
   }
 }
