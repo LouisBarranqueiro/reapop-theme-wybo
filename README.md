@@ -24,7 +24,6 @@ You have to define some loaders to handle files of theme. If it's not already th
 
  - **style-loader** with `npm install style-loader --save-dev`
  - **css-loader** with `npm install css-loader --save-dev`
- - **sass-loader** with `npm install sass-loader --save-dev`
  - **url-loader** with `npm install url-loader --save-dev`
  - **file-loader** with `npm install file-loader --save-dev`
 
@@ -43,8 +42,8 @@ var CSSLoader = [
 module.exports = {
   module: {
     loaders: [{
-      test: /\.scss$/,
-      loaders: ['style', CSSLoader, 'sass']
+      test: /\.css$/,
+      loaders: ['style', CSSLoader]
     }, {
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
       loader: "url-loader?limit=10000&minetype=application/font-woff"
