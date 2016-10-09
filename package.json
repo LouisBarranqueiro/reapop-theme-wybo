@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/LouisBarranqueiro/reapop-theme-wybo#readme",
   "peerDependencies": {
-    "font-awesome": "^4.6.1"
+    "font-awesome": "^4.6.1",
+    "reapop": "^0.6.0"
   },
   "devDependencies": {
     "node-sass": "^3.10.0"
