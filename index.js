@@ -18,22 +18,18 @@ var notificationsContainerClassName = {
 
 // default transition for Notification component
 var notificationsContainerTransition = {
-  appearTimeout: 500,
   enterTimeout: 500,
-  leaveTimeout: 500,
+  leaveTimeout: 900,
   name: {
-    appear: css['notification-appear'],
-    appearActive: css['notification-appear-active'],
-    enter: css['notification-enter'],
-    enterActive: css['notification-enter-active'],
-    leave: css['notification-leave'],
-    leaveActive: css['notification-leave-active']
+    enter: css['notification-wrapper-enter'],
+    leave: css['notification-wrapper-leave']
   }
 };
 
 // default className for Notification component
 var notificationClassName = {
   main: css['notification'],
+  wrapper: css['notification-wrapper'],
   meta: css['notification-meta'],
   title: css['notification-title'],
   message: css['notification-message'],
