@@ -6,7 +6,7 @@ Official theme for [Reapop](https://github.com/LouisBarranqueiro/reapop)
 
 ## Compatibility
 
-Tested and works with :
+Tested and works with **Reapop v0.6.0** in :
 
 ![Supported browsers](https://reapop-theme-wybo.s3.eu-central-1.amazonaws.com/supported-browsers.jpg)
 
