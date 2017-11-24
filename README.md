@@ -33,7 +33,7 @@ Look at this example, you can use it in for your project. Check out configuratio
 // CSS loader with some configuration
 // read https://github.com/webpack/css-loader to understand each query parameters
 var CSSLoader = [
-  'css?sourceMap&-minimize',
+  'css-loader?sourceMap&-minimize',
   'modules',
   'importLoaders=1',
   'localIdentName=[name]__[local]__[hash:base64:5]'
@@ -43,7 +43,7 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.css$/,
-      loaders: ['style', CSSLoader]
+      loaders: ['style-loader', CSSLoader]
     }, {
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
       loader: "url-loader?limit=10000&minetype=application/font-woff"
