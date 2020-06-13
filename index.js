@@ -1,6 +1,6 @@
 'use strict';
 
-var css = require('./lib/styles.css');
+var css = require('./lib/styles.module.css');
 
 // media breakpoint - small screen min width
 var smallScreenMin = 768;
