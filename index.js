@@ -1,5 +1,7 @@
 'use strict';
 
+// In order for this theme to work straight out of the box with the Create React App project,
+// we follow the same CSS Modules `[name].module.css` file naming convention.
 var css = require('./lib/styles.module.css');
 
 // media breakpoint - small screen min width
